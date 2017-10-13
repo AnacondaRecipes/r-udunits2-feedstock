@@ -40,10 +40,12 @@ requirements:
     - {{posix}}automake          # [not win]
     - {{posix}}pkg-config
     - {{posix}}make
+    - {{native}}udunits2
 
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
+    - {{native}}udunits2
 
 test:
   commands:
