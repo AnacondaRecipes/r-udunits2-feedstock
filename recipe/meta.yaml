@@ -10,8 +10,8 @@ package:
 source:
   fn: udunits2_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/udunits2_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/udunits2/udunits2_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/udunits2_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/udunits2/udunits2_{{ version }}.tar.gz
   sha256: d155d3c07f6202b65dec4075ffd1e1c3f4f35f5fdece8cfb319d39256a3e5b79
 
 
